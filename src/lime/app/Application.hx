@@ -474,7 +474,7 @@ class Application extends Module
 		Called when an update event is fired on the primary window
 		@param	deltaTime	The amount of time in milliseconds that has elapsed since the last update
 	**/
-	public function update(deltaTime:Float):Void {}
+	public function update(deltaTime:Int):Void {}
 
 	@:noCompletion private function __addWindow(window:Window):Void
 	{
